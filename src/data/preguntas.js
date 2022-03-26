@@ -8,19 +8,19 @@ export const categorias = [
                 pregunta: '¿Cuándo se inauguró el metro de Londres?',
                 respuestas: [
                     {
-                        opcion: '1863',
+                        opcion: '1888',
                         color: 'btn-primary'
                     },
                     {
-                        opcion: 'mala1',
+                        opcion: '1997',
                         color: 'btn-success'
                     },
                     {
-                        opcion: 'mala2',
+                        opcion: '1876',
                         color: 'btn-danger'
                     },
                     {
-                        opcion: 'mala3',
+                        opcion: '1863',
                         color: 'btn-warning'
                     }
                 ],
@@ -34,15 +34,15 @@ export const categorias = [
                         color: 'btn-primary'
                     },
                     {
-                        opcion: 'mala1',
+                        opcion: 'Robert Cailliau, 1890',
                         color: 'btn-success'
                     },
                     {
-                        opcion: 'mala2',
+                        opcion: 'Alan Turing, 1999',
                         color: 'btn-danger'
                     },
                     {
-                        opcion: 'mala3',
+                        opcion: 'Bill Gates, 1955',
                         color: 'btn-warning'
                     }
                 ],
@@ -52,19 +52,19 @@ export const categorias = [
                 pregunta: '¿Quién inventó el icónico Little Black Dress?',
                 respuestas: [
                     {
-                        opcion: 'Coco Chanel, 1920s',
-                        color: 'btn-primary'
+                        opcion: 'Antoinette Chanel, 1920s',
+                        color: ' btn-primary'
                     },
                     {
-                        opcion: 'mala1',
+                        opcion: 'Christian Dior, 1900s',
                         color: 'btn-success'
                     },
                     {
-                        opcion: 'mala2',
+                        opcion: 'Coco Chanel, 1920s',
                         color: 'btn-danger'
                     },
                     {
-                        opcion: 'mala3',
+                        opcion: 'Pierre Bergé, 2000s',
                         color: 'btn-warning'
                     }
                 ],
@@ -74,19 +74,19 @@ export const categorias = [
                 pregunta: '¿Qué ocurrió el 20 de Julio de 1969?',
                 respuestas: [
                     {
-                        opcion: 'El alunizaje del Apollo 11',
+                        opcion: 'Crisis financiera mundial',
                         color: 'btn-primary'
                     },
                     {
-                        opcion: 'mala1',
+                        opcion: 'Uruguay campeón del mundo',
                         color: 'btn-success'
                     },
                     {
-                        opcion: 'mala2',
+                        opcion: 'El alunizaje del Apollo 11',
                         color: 'btn-danger'
                     },
                     {
-                        opcion: 'mala3',
+                        opcion: 'Revolución francesa',
                         color: 'btn-warning'
                     }
                 ],
@@ -100,15 +100,15 @@ export const categorias = [
                         color: 'btn-primary'
                     },
                     {
-                        opcion: 'mala1',
+                        opcion: '1960',
                         color: 'btn-success'
                     },
                     {
-                        opcion: 'mala2',
+                        opcion: '2001',
                         color: 'btn-danger'
                     },
                     {
-                        opcion: 'mala3',
+                        opcion: '2022',
                         color: 'btn-warning'
                     }
                 ],
@@ -124,17 +124,133 @@ export const categorias = [
             }
         ]
     },
-
-
-
-
     {
         nombre: 'Películas y TV',
-        color: 'btn-success'
+        color: 'btn-success',
+        preguntas: [
+            {
+                pregunta: '¿En qué año se fundó Netflix: 1997, 2001, 2009, 2015?',
+                respuestas: [
+                    {
+                        opcion: '2015',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: '1997',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: '2001',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: '2009',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: '1997',
+            },
+            {
+                pregunta: '¿Cuál fue la serie más vista en Netflix en el 2019?',
+                respuestas: [
+                    {
+                        opcion: 'Peaky Blinders',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Dark',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'The Flash',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Stranger Things',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Stranger Things',
+            },
+            {
+                pregunta: '¿Cuál fue el primer largometraje de Pixar?',
+                respuestas: [
+                    {
+                        opcion: 'Toy Story, 1995',
+                        color: ' btn-primary'
+                    },
+                    {
+                        opcion: 'Los increíbles 2, 2018',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Buscando a Nemo, 2003',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Monsters, Inc., 2001',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Toy Story, 1995',
+            },
+            {
+                pregunta: '¿Cómo se llama la icónica cafetería de Friends?',
+                respuestas: [
+                    {
+                        opcion: 'Café Creme',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Central Perk',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Café gouter',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Starbucks',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Central Perk',
+            },
+            {
+                pregunta: '¿Cuál fue la primer película de Disney?',
+                respuestas: [
+                    {
+                        opcion: 'Blanca Nieves',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Aladdín',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Tarzán',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'El rey león',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Blanca Nieves',
+            },
+            {
+                respuestas: [
+                    {
+                        opcion: '',
+                        color: ''
+                    }
+                ],
+            }
+        ]
     },
 
 
-    
+
     {
         nombre: 'Geografía',
         color: 'btn-danger',
@@ -283,6 +399,170 @@ export const categorias = [
     },
     {
         nombre: 'Conocimiento general',
-        color: 'btn-warning'
+        color: 'btn-warning',
+        preguntas: [
+            {
+                pregunta: '¿Cuántas zonas horarias tiene en Rusia?',
+                respuestas: [
+                    {
+                        opcion: '5',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: '1',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: '11',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: '3',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: '11',
+            },
+            {
+                pregunta: '¿Cuál es la flor nacional de Japón?',
+                respuestas: [
+                    {
+                        opcion: 'Flor de Cerezo',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Lirio amarillo',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Azalea',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Dahlia',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Flor de Cerezo',
+            },
+            {
+                pregunta: '¿Cuántas franjas tiene la bandera de Estados Unidos?',
+                respuestas: [
+                    {
+                        opcion: '4',
+                        color: ' btn-primary'
+                    },
+                    {
+                        opcion: '11',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: '16',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: '13',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: '13',
+            },
+            {
+                pregunta: '¿Cuál es el animal nacional de Australia?',
+                respuestas: [
+                    {
+                        opcion: 'Canguro',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Dragón espinoso',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Ornitorrinco',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'koala',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Canguro',
+            },
+            {
+                pregunta: '¿Cuántos días le toma a la tierra dar una vuelta a la órbita del sol?',
+                respuestas: [
+                    {
+                        opcion: '154',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: '465',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: '245',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: '365',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: '365',
+            },
+            {
+                pregunta: '¿Cuál de los siguientes imperios no tenía un idioma escrito: Inca, Aztecas, Egipcios, Romanos?',
+                respuestas: [
+                    {
+                        opcion: 'Egipcios',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Inca',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Aztecas',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Romanos',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Inca',
+            },
+            {
+                pregunta: '¿Cómo se llamaba Istanbul antes de 1923?',
+                respuestas: [
+                    {
+                        opcion: 'Constantinopla',
+                        color: 'btn-primary'
+                    },
+                    {
+                        opcion: 'Estambul',
+                        color: 'btn-success'
+                    },
+                    {
+                        opcion: 'Bizancio',
+                        color: 'btn-danger'
+                    },
+                    {
+                        opcion: 'Istanbul',
+                        color: 'btn-warning'
+                    }
+                ],
+                correcta: 'Constantinopla',
+            },
+            {
+                respuestas: [
+                    {
+                        opcion: '',
+                        color: ''
+                    }
+                ],
+            }
+        ]
     },
 ];

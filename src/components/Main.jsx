@@ -12,6 +12,12 @@ export const Main = () => {
         } else if (name === 'Geografía') {
             navigate('geografia')
         }
+        else if (name === 'Películas y TV') {
+            navigate('peliculasytv')
+        }
+        else if (name === 'Conocimiento general') {
+            navigate('conocimientogeneral')
+        }
     }
     return (
         <>

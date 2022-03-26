@@ -23,22 +23,27 @@ export const Base = ({ preguntas }) => {
     const puntosTotales = preguntas.length - 1;
     useEffect(() => {
         if (contador === puntosTotales) {
-            Swal.fire(`Tus puntos fueron ${puntos} de ${puntosTotales}`)
-            navigate('/')
+            if (puntos === 1) {
+                Swal.fire(`Obtuviste ${puntos} punto de ${puntosTotales}`)
+                navigate('/')
+            } else {
+                Swal.fire(`Obtuviste ${puntos} puntos de ${puntosTotales}`)
+                navigate('/')
+            }
         }
-    }, [contador])
+    }, [contador, navigate, puntosTotales, puntos])
 
     return (
         <>
             <div className="container mt-5">
                 <div className="row mb-5">
                     <div className="col">
-                        <h1 className="text-center">Trivia React {puntos}</h1>
+                        <h1 className="text-center fs-1">Trivia React</h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <h3 className="text-center mb-5">{pregunta}</h3>
+                        <h3 className="text-center mb-5 fs-1">{pregunta}</h3>
                     </div>
                 </div>
             </div>
